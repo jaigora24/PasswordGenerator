@@ -1,5 +1,5 @@
 import random 
-chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890-+=!@#$%^&*"
+chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890-+=!@#$%^&*"
 length_of_pass = int(input("num of letters:"))
 def pass_generator(num):
     password = ''
